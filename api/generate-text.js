@@ -39,17 +39,18 @@ Ignore any franchise/character hints and rewrite generically.
 Title must be <= 140 characters.
 Description must keep EXACTLY the same structure/headings/emojis/line breaks as the template.
 
-Use premium home-decor collector style.
+Style: premium, collector-grade, home decor.
 
-Return a valid JSON object ONLY (no markdown, no extra text) with:
-- "title": string
-- "description": string
+IMPORTANT: respond in json only. Output must be a valid json object with keys "title" and "description".
+No markdown. No extra text.
 
 TEMPLATE:
 ${TEMPLATE}
 `.trim();
 
-  const input = `
+const input = `
+json output required.
+
 Product type: ${productType}
 Visual cues: ${visualCues}
 Size (cm): ${sizeCm || "N/A"}
