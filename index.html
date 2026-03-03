@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Etsy Listing Maker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Etsy Listing Maker (Text v1)</h1>
+
+    <label>Product type</label>
+    <input id="productType" value="collector statue" />
+
+    <label>Visual cues (describe what you see)</label>
+    <textarea id="visualCues" placeholder="blonde woman sitting on chair, scattered letters, typewriter, lantern, round base..."></textarea>
+
+    <div class="grid">
+      <div>
+        <label>Size (cm)</label>
+        <input id="sizeCm" placeholder="e.g. 25" />
+      </div>
+      <div>
+        <label>Condition</label>
+        <input id="condition" value="new" />
+      </div>
+    </div>
+
+    <label>Real materials</label>
+    <input id="materialsReal" value="resin, hand-painted" />
+
+    <label>Shipping note (optional)</label>
+    <input id="shippingNote" placeholder="Secure packaging, tracked shipping..." />
+
+    <button id="btn">Generate title + description</button>
+
+    <p id="status"></p>
+
+    <section id="out" class="hidden">
+      <h2>Title</h2>
+      <pre id="title"></pre>
+      <button id="copyTitle">Copy title</button>
+
+      <h2>Description</h2>
+      <pre id="desc"></pre>
+      <button id="copyDesc">Copy description</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
