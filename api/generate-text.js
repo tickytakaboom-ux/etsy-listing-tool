@@ -32,13 +32,12 @@ Other figures are available in my shop — feel free to explore the collection.
 
   const instructions = `
 You write Etsy listing text in English.
+
 ABSOLUTE RULE: Do NOT mention any franchise, anime title, series name, character name, brand or license.
 Ignore any franchise/character hints and rewrite generically.
 
-Title <= 140 characters.
+Title must be <= 140 characters.
 Description must keep EXACTLY the same structure/headings/emojis/line breaks as the template.
-
-BANNED TERMS (case-insensitive): ${BANNED.join(", ")}
 
 Use premium home-decor collector style.
 
