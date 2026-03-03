@@ -1,0 +1,10 @@
+body { font-family: system-ui, Arial; margin: 0; background: #0b0d12; color: #e9eefc; }
+.wrap { max-width: 900px; margin: 40px auto; padding: 16px; }
+label { display:block; margin-top: 12px; opacity: .9; }
+input, textarea { width: 100%; padding: 10px; margin-top: 6px; border-radius: 10px; border: 1px solid #2b3350; background: #121729; color:#e9eefc; }
+textarea { height: 120px; }
+button { margin-top: 16px; padding: 10px 14px; border-radius: 10px; border: 0; background: #4f7cff; color: white; cursor: pointer; }
+pre { white-space: pre-wrap; background: #121729; padding: 12px; border-radius: 12px; border: 1px solid #2b3350; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.hidden { display:none; }
+#status { margin-top: 10px; color: #ffcc66; }
