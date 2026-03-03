@@ -42,9 +42,9 @@ BANNED TERMS (case-insensitive): ${BANNED.join(", ")}
 
 Use premium home-decor collector style.
 
-Return JSON with:
-- title (string)
-- description (string)
+Return a valid JSON object ONLY (no markdown, no extra text) with:
+- "title": string
+- "description": string
 
 TEMPLATE:
 ${TEMPLATE}
